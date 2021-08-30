@@ -62,7 +62,7 @@ class Character extends Component {
   }
 
   render() {
-    let content = <p>Loading Character...</p>;
+    let content = <p>Should state ("Loading character...")</p>;
 
     if (!this.state.isLoading && this.state.loadedCharacter.id) {
       content = (
